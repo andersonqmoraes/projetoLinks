@@ -79,6 +79,10 @@ body * {
   animation: deslizarBotaoV 0.4s forwards;  
 }
 
+#switch button:hover{
+  outline: 4px solid var(--higtlight-color);
+}
+
 .light #switch button {
   animation: deslizarBotao 0.4s forwards;
 }
